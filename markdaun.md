@@ -11,3 +11,9 @@ git config --global user.name "Tara Routray"
 git config --global user.email "dev@tararoutray.com"
 ```
 
+## Кэширование учётных данных
+
+Кэшировать учётные данные можно с помощью параметра config с флагом --global. Так вы избавитесь от необходимости вручную вводить имя пользователя и пароль при создании нового коммита.
+```sh
+git config --global credential.helper cache
+```
